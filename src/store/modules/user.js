@@ -1,4 +1,4 @@
-import { getUserInfo } from '@/apis/auth';
+import { getUserInfo } from '@/api/auth';
 
 const state = {
   username: '',

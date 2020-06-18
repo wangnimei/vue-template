@@ -4,7 +4,7 @@ const mock = require('./mock/index.js');
 
 const devServerAssgin = process.env.VUE_APP_BASE_API === '/mock' ? { before: mock } : {};
 
-// 将scss资源自动注册到其他模块
+// 将scss资源自动注册到其他模块;
 function addStyleResource(rule) {
   rule.use('style-resource')
     .loader('style-resources-loader')

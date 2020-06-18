@@ -50,10 +50,6 @@ export const asyncRoutes = [
     name: 'about',
     component: () => import(/* webpackChunkName: "about" */ '../views/about/Index.vue'),
   },
-  {
-    path: '*',
-    redirect: '/404',
-  },
 ];
 
 const router = new VueRouter({

@@ -1,7 +1,6 @@
 import axios from 'axios';
 import { Message } from 'element-ui';
 import { getToken } from './auth';
-// import router from '@/router';
 
 const request = axios.create({
   baseURL: process.env.VUE_APP_BASE_API, // url = base url + request url
